@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cytron-content-radar",
+  "private_key_id": "d601eab398d47fc13556a4c9f2663ad2fe555f71",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8S+Iyk+WCdqEg\niIJbO1p1t7q1VXtI/lInZku29WYqkFHg1CKgsjySwYoKt9jPjoA/pCR0j4RnTONq\nHkJxvAFz6LCoalEr33jGU8QDcW4VMvRqcseOzGcFZmx7KQUSiSjLvW18Qk2Qvr3l\njGj4Ziy+aRHUtIhoZJcJIQloWa+tjxOn55SR3vqNrXQegT/xEiMe3GGtPxPxMY5t\nu25nEN1lgbGgR29aLsoBUHl1ut+ZQQGvQ8jJ8XSEyPmxluxPiAy2L3TkMZzF4xNQ\nU6/EFAd2zOEsOQdezdq1GMXt3euCTOvz3bFx+eE+YZspXIu7nUdnJ4SAiuFXVCdV\neVHnBhD1AgMBAAECggEAMC6yyQJzXjkA7hRAVxwO/8Rt8GzZSUpat15DzaNp60ZW\nzVM7MSeqvFrt+eQlhKcQRji4Y2M+HDjekI8BrZzQOlq2qcHa14EtpIJWzBLAeog5\nZuvMCMxhKE6XP8S1WZLjb48fbwaAVqOYcB7H1Zg/ptG4EFfJ9/yVcW6Uu7EHdT+Q\nxwkOJcLA4r3vzd04AdEhUuy7IM/qr8uG7U4aQKB91I/qDvH6xWr+LRvJrB/ZB9ha\nNpwmQpPYycy7IHoTFGA88yVUk+2tG3H/Iu6S7AQLfreeTcWICjkQileWzTuBOZh7\nKItOAW1w/1wjMjLc8xCUA9iRhOO1dFm+1HQoLuDnGQKBgQDq8VUvZRCbD6liXukf\nOFtW3AMDYUNpjSe08WwjvuIGjwCTZ7bKbBqnL4OBfEGiLHK7UfgF0ae9tEupO194\neVQuPez/o0vbVDWUvtBMto6QBsCZyPu78FAHmN/E7qD/cBUurhvYUvQ7x2GnLAK5\nRkCsazR508eDUpUtpbvpXzJxNwKBgQDNLEUyDd1iXq3H/UArujFUq+eIpl5ZNsno\nP+9PUSi54PMkCgkfbauLQ3eP9S0UJvX+knHCUVBZVbPMJ14z5gcm3hNDAuK/cUOT\nEiS+c+gWlSgEBAREI3Xvoo5KC2Jv+kFvxRf/VZ6RdHqd8vBhzR082f2F/yWUTR2x\nsSjlsNAVMwKBgBJQr/ha45mC9gxyI7BIX259BkscKPowg9jqPSjoN4yVV1Emc6yC\nEu3XmWPdwOwYlPUfZbtmZbI3PPK7ayzkIHjeYPxoyYAWp3qqCWkBjkmSDS+v6Ff1\nWvfMph0fETP4k94ouoj5poqGd4llt+yjmmUWkmew58vIA1MkqWp+/lqvAoGAAY5R\nZATI5gMTzE12XB6IWz0Gf3nLg1+v/kvl07Mo3OgA0Agnc46QW3kCghv44Is/GFQh\n+rhFJLhKqcSuqTQYX8oVWU+/SnZgbdAYaT1VyD4PVKB3K9EdBtkzvQoDEBhUwLU8\n7lnG3xGEEIiUHBnDHAAHNSnvLgW7sOpIBh3mJhMCgYAM9HQOZM6ZLkV2dW1riliB\nVlE9MoXF3bu2AkcOKLUFQktji6kCtUfkCn2Sc+dRbWRxz+HCEuSedbO6UQaYzYew\nUPn4YlRusSNfEB1YJ3z9Vbul9UET42Me5B0+yJybqNLscEXafgFfZJqYZP1vIINp\njCBnKVAn8cicW3J8ggPacw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cytron-content-radar@cytron-content-radar.iam.gserviceaccount.com",
+  "client_id": "109258695771654278420",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cytron-content-radar%40cytron-content-radar.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
