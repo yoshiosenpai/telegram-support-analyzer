@@ -12,15 +12,16 @@ from telegram.ext import (
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
-
+from dotenv import load_dotenv
 
 # ========== CONFIGURATION ==========
-TELEGRAM_TOKEN = "7893151080:AAEQCLlq8D6KVWkXANE__DFdpKXP7JLQ6FE"
-REPEAT_CHAT_ID = -1002283022281
-REPEAT_THREAD_ID = 10
-GEMINI_API_KEY = "AIzaSyBEyhNuh3k7e3Q3V4SGehzpTCiqVwBV5v0"
-GSHEET_NAME = "Cytron Weekly Pattern Log"
-GSHEET_CRED_FILE = "cytron-gsheet-creds.json"  # same folder as this script
+load_dotenv()
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+REPEAT_CHAT_ID = int(os.getenv("REPEAT_CHAT_ID"))
+REPEAT_THREAD_ID = int(os.getenv("REPEAT_THREAD_ID"))
+GSHEET_NAME = os.getenv("GSHEET_NAME")
+GSHEET_CRED_FILE = os.getenv("GSHEET_CRED_FILE")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 
 # Optional: specify Tesseract path if needed

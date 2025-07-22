@@ -6,13 +6,16 @@ from telegram import Bot
 import asyncio
 import textwrap
 import pytz
+from dotenv import load_dotenv
+
 
 # ========== CONFIG ==========
-TELEGRAM_TOKEN = "7893151080:AAEQCLlq8D6KVWkXANE__DFdpKXP7JLQ6FE"
-REPEAT_CHAT_ID = -1002283022281
-REPEAT_THREAD_ID = 10
-GSHEET_NAME = "Cytron Weekly Pattern Log"
-GSHEET_CRED_FILE = "cytron-gsheet-creds.json"  # Same folder as this script
+load_dotenv()
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+REPEAT_CHAT_ID = int(os.getenv("REPEAT_CHAT_ID"))
+REPEAT_THREAD_ID = int(os.getenv("REPEAT_THREAD_ID"))
+GSHEET_NAME = os.getenv("GSHEET_NAME")
+GSHEET_CRED_FILE = os.getenv("GSHEET_CRED_FILE")
 
 # ========== Connect to Google Sheets ==========
 def load_weekly_data():
