@@ -5,4 +5,4 @@ oauth2client
 google-generativeai
 pytz
 python-dotenv
-tesseract
+pytesseract
